@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Cara</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="headtrackr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <canvas id='input-canvas'></canvas>
+        <video id="vid" style="display:none" autoplay loop></video>
+        <canvas id="tracking-canvas"></canvas>
+        <div id='video-overlay'></div>
+    </div>
+    <div style="position: fixed; bottom: 0; right:25; color:#ffffff">
+        <h2 id = "nameHeader"; align = "center"; style = "font-family:arial">NOBODY</h2>
+        <h2 id = "ageHeader"; align = "center"; style = "font-family:arial">AGE: ---</h2>
+        <h2 id = "birthdayHeader"; align = "center"; style = "font-family:arial">BIRTHDAY: ---</h2>
+    </div>
+    <div style="position: fixed; top: 0; left:25; color:#ffffff">
+        <h2 id = "relationshipHeader"; align = "center"; style = "font-family:arial">RELATIONSHIP: ---</h2>
+        <h2 id = "professionHeader"; align = "center"; style = "font-family:arial">PROFESSION: ---</h2>
+    </div>
+    <div style="position: fixed; top: 0; right:25">
+        <img src = "battery-icon.png"; align = "center"; style = "width: 75; height:75">
+    </div>
+    <script src="webcam.js"></script>
+    <script src="chance.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "community",
+  "version": "1.0.0",
+  "description": "Admin/Client server for platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Cara"
+  },
+  "author": "Jerry Zhou & Michael Ma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.6.2",
+    "nodemon": "^1.17.1",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.4"
+  }
+}

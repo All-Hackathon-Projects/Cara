@@ -1,0 +1,1 @@
+{ 85fb8f34-363c-412e-be1d-cd0c03b4b03a : '/res/sexyMan.png' }

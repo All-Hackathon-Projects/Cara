@@ -1,0 +1,21 @@
+table {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#roster {
+    float:left;
+}
+
+#missing {
+    margin-left: 3vw;
+}
+#missing td, th{
+    min-width: 30vw;
+}

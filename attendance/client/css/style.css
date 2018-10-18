@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#input-canvas {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vid {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0);
+    background-position: center;
+}
+
+#tracking-canvas {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
